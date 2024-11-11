@@ -6,37 +6,37 @@ import Img02 from '@/public/Frame 11 (4).png'
 
 function Contact() {
   return (
-    <div className=''>
+    <div className='contactSection'>
 
 
-        <h2 className=''>Contact Us</h2>
+        <h2 className='contactHeading'>Contact Us</h2>
 
-        <div className=''>
-            <form className=''>
+        <div className='contactContentWrapper'>
+            <form className='contactForm'>
 
-              <input type="text" placeholder='Name' className='' />
+              <input type="text" placeholder='Name'/>
 
-              <div className='relative'>
-              <input type="phone" placeholder='Phone Number' className='' required/>
-              <span className="">*</span>
+              <div className='fieldWrapper'>
+              <input type="phone" placeholder='Phone Number'required/>
+              <span>*</span>
               </div>
 
-              <div className='relative'>
-              <input type="email" placeholder='E-mail' className='' required />
-              <span className="">*</span>
+              <div className='fieldWrapper'>
+              <input type="email" placeholder='E-mail' required />
+              <span >*</span>
               </div>
 
-              <input type="text" placeholder='Interested In' className='' />
+              <input type="text" placeholder='Interested In' />
              
-              <div className='relative'>
-              <textarea placeholder='Message' className='' required></textarea>
-              <span className="">*</span>
+              <div className='fieldWrapper'>
+              <textarea placeholder='Message' required></textarea>
+              <span >*</span>
               </div>
 
             </form>
        
 
-            <Image src={Img01} alt='contactImg' height={1000} width={1000} className=''/>
+            <Image src={Img01} alt='contactImg' height={1000} width={1000} className='contactImg1'/>
 
         </div>
 
@@ -44,7 +44,7 @@ function Contact() {
 
         <div>
 
-          <Image src={Img02} alt='button' className=''/>
+          <Image src={Img02} alt='button' className='contactImg2'/>
 
               
         </div>

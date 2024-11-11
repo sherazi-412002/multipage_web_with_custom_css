@@ -26,8 +26,8 @@ function Projects() {
                 <Link href={'/sample-project'}>
                 <div className='projectSubContainer'>
                   <Image src={Img03} alt='bgImg' height={1000} width={1000} className='projectImg1'/>
-                  <Image src={Img02} alt='bgImg' height={1000} width={1000} className='projectImg2'/>
-                  <Image src={Img01} alt='bgImg' height={1000} width={1000} className='projectImg3'/>
+                  <Image src={Img02} alt='bgImg' height={1000} width={1000} className='projectImg2 hidden'/>
+                  <Image src={Img01} alt='bgImg' height={1000} width={1000} className='projectImg3 hidden'/>
                 </div>
                 </Link>
 
@@ -48,7 +48,7 @@ function Projects() {
 
             </div>
 
-            <div className=''>
+            <div className='lastContainer'>
               <Image src={Img08} alt='bgImg' height={1000} width={1000} className='projectImg8'/>
             </div>
         </div>

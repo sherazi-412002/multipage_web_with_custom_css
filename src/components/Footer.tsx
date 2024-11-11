@@ -16,22 +16,22 @@ function Footer() {
   return (
     <div>
 
-        <footer className=''>
+        <footer className='footerSection'>
 
-            <div className=''>
+            <div className='footerContentWrapper'>
 
-            <div>
+              <div>
 
-                <Image src={Img01} alt='logo' width={1000} height={1000} className=''/>
+                <Image src={Img01} alt='logo' width={1000} height={1000} className='footerImg1'/>
 
-            </div>
+              </div>
 
-            <div className=''>
+              <div className='footerInfo'>
 
                 <div>
 
-                   <h3 className=''>Information</h3>
-                   <ul className=''>
+                   <h3>Information</h3>
+                   <ul className='infoList'>
                       <li>Main</li>
                       <li>Gallery</li>
                       <li>Projects</li>
@@ -44,21 +44,21 @@ function Footer() {
 
                 <div>
 
-                    <h3 className=''>Contacts</h3>
-                    <ul className=''>
-                        <li className=''>
-                            <Image src={Img02} alt='location' width={1000} height={1000} className=''/>
+                    <h3>Contacts</h3>
+                    <ul className='contactList'>
+                        <li>
+                            <Image src={Img02} alt='location' width={1000} height={1000} className='footerImg2'/>
                             <div>
                                 <p>1234 Sample Street</p>
                                 <p>Austin Texas 78704</p>
                             </div>
                         </li>
-                        <li className=''>
-                            <Image src={Img03} alt='contact' width={1000} height={1000} className=''/>
+                        <li>
+                            <Image src={Img03} alt='contact' width={1000} height={1000} className='footerImg3'/>
                             <p>512.333.2222</p>
                         </li>
-                        <li className=''>
-                            <Image src={Img04} alt='email' width={1000} height={1000} className=''/>
+                        <li>
+                            <Image src={Img04} alt='email' width={1000} height={1000} className='footerImg4'/>
                             <p>sampleemail@gmail.com</p>
                         </li>
                     </ul>
@@ -67,22 +67,22 @@ function Footer() {
 
             </div>
 
-            <div className=''>
+            <div className='footerMedia'>
 
-                <h3 className=''>Social Media</h3>
+                <h3>Social Media</h3>
 
-                <ul className=''>
+                <ul className='mediaList'>
                     <li>
-                        <Image src={Img05} alt='facebook' width={1000} height={1000} className=''/>
+                        <Image src={Img05} alt='facebook' width={1000} height={1000} className='footerImg5'/>
                     </li>
                     <li>
-                        <Image src={Img06} alt='twitter' width={1000} height={1000} className=''/>
+                        <Image src={Img06} alt='twitter' width={1000} height={1000} className='footerImg6'/>
                     </li>
                     <li>
-                        <Image src={Img07} alt='linkedIn' width={1000} height={1000} className=''/>
+                        <Image src={Img07} alt='linkedIn' width={1000} height={1000} className='footerImg7'/>
                     </li>
                     <li>
-                        <Image src={Img08} alt='pixel' width={1000} height={1000} className=''/>
+                        <Image src={Img08} alt='pixel' width={1000} height={1000} className='footerImg8'/>
                     </li>
                 </ul>
 
@@ -90,8 +90,8 @@ function Footer() {
 
             </div>
 
-            <div className=''>
-                <p className=''>© 2021 All Rights Reserved</p>
+            <div className='copyRightSection'>
+                <p className='copyRightText'>© 2021 All Rights Reserved</p>
             </div>
 
         </footer>

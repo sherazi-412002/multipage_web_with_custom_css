@@ -452,23 +452,10 @@
 }
 
 
-.projectSection{
-  margin-left: 0%;
-  height: auto;
-  width: auto;
-  padding: 12px;
-}
-
-
 .projecHeading{
   font-size: 64px;
   color: #9ca3af;
   font-family: 300;
-}
-
-
-.projecHeading{
-  font-size: 40px;
 }
 
 
@@ -480,21 +467,408 @@
 
 
 .projectContainer{
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.projectContainer{
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 40px;
 }
 
 
 .projectSubContainer{
   display: flex;
   position: relative;
+}
+
+
+.projectImg1{
+  height: 255px;
+  width: 570px;
+}
+
+
+.projectImg4{
+  height: 255px;
+  width: 570px;
+  color: #374151;
+}
+
+
+.projectImg5{
+  height: 255px;
+  width: 270px;
+}
+
+.projectImg6{
+  height: 255px;
+  width: 470px;
+}
+
+
+.projectImg7{
+  height: 255px;
+  width: 370px;
+}
+
+.lastContainer{
+  display: flex;
+  justify-content: end;
+}
+
+.projectImg8{
+  height: 71px;
+  width: 221.81px;
+}
+
+.projectImg8:hover{
+  opacity: 0.75;
+}
+
+
+@media screen and (max-width:768px) {
   
+  .projectSection{
+    margin-left: 0%;
+    height: auto;
+    width: auto;
+    padding: 12px;
+  }
+
+  .projecHeading{
+    font-size: 40px;
+  }
+  
+  .projectContainer{
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+
+  .projectImg1{
+    width: auto;
+  }
+
+  .projectImg4{
+    width: auto;
+  }
+
+  .projectImg5{
+    width: auto;
+  }
+
+  .projectImg6{
+    width: auto;
+  }
+
+  .projectImg7{
+    width: auto;
+  }
+}
+
+
+
+
+/* Contact Section */
+
+.contactSection{
+  height: 603px;
+  width: 1170px;
+  margin-left: 10%;
+}
+
+.contactHeading{
+  font-size: 64px;
+  font-weight: 300;
+  color: #9ca3af;
+}
+
+.contactContentWrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contactForm input {
+  height: 46px;
+  width: 391px;
+  background-color: white;
+}
+
+.contactForm input::placeholder{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.fieldWrapper{
+  position: relative;
+}
+
+.contactForm span {
+  position: absolute;
+  right: 256px;
+  top:8px;
+  color: red;
+}
+
+
+.contactForm textarea {
+  height: 147px;
+  width: 391px;
+  background-color: #f3f3f3;
+  resize: none;
+}
+
+
+.contactForm textarea::placeholder{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+.contactImg1{
+  height: 369px;
+  width: 749px;
+}
+
+
+.contactImg2{
+  width: 221.81px;
+  height: 71px;
+}
+
+.contactImg2:hover{
+  opacity: 0.75;
+}
+
+
+@media screen and (max-width:768px) {
+
+  .contactSection{
+    width: auto;
+    height: auto;
+    gap: 40px;
+    padding: 12px;
+  }
+
+  .contactHeading{
+    font-size: 50px;
+  }
+
+  .contactContentWrapper{
+    flex-direction: column;
+  }
+
+  .contactForm input{
+    width: 100%;
+  }
+
+  .contactForm span {
+    display: none;
+  }
+
+  .contactForm textarea {
+    width: 100%;
+  }
+  
+  .contactImg1{
+    width: auto;
+  }
+  
+}
+
+
+
+
+
+/* Footer Section */
+
+.footerSection{
+  height: 417px;
+  width: 1440px;
+  background-color:  #2c2c2c;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  padding-top: 2%;
+}
+
+
+.footerContentWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  gap: 112px;
+}
+
+
+.footerImg1{
+  height: 94px;
+  width: 145px;
+}
+
+.footerInfo{
+  height: 229px;
+  width: 605px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 160px;
+}
+
+
+.footerInfo  h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: start;
+}
+
+
+.infoList{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+
+.contactList{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+.contactList li {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+
+.footerImg2{
+  height: 16px;
+  width: 11px;
+}
+
+.footerImg3{
+  height: 16px;
+  width: 16px;
+}
+
+.footerImg4{
+  height: 11px;
+  width: 16px;
+  margin-top: 8px;
+}
+
+
+.footerMedia{
+  margin-right: 96px;
+}
+
+
+.mediaList{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 28px;
+}
+
+
+.footerImg5{
+  height: 19px;
+  width: 10px;
+}
+
+.footerImg6{
+  height: 16px;
+  width: 21px;
+}
+
+.footerImg7{
+  height: 20px;
+  width: 20px;
+}
+
+.footerImg8{
+  height: 19px;
+  width: 14px;
+}
+
+
+.copyRightSection{
+  width: 1440px;
+  height: 50px;
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #d8d8d8;
+}
+
+
+.copyRightText{
+  font-size: 12px;
+  color: #c8c8c8;
+}
+
+
+@media screen and (max-width:768px) {
+
+  .footerSection{
+    justify-content: space-between;
+    padding: 40px;
+    width: auto;
+    height: 800px;
+    padding-top: 0px;
+    align-items: normal;
+  }
+  
+  .footerContentWrapper{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .footerImg1{
+   margin-top: 40px;
+  }
+
+
+  .footerInfo{
+    width: auto;
+    height: auto;
+    gap: 64px;
+    flex-direction: column;
+  }
+
+  .footerInfo  h3 {
+    text-align: center;
+  }
+
+  .infoList{
+    font-size: 14px;
+    gap: 8px;
+    flex-direction: row;
+  }
+
+
+  .footerMedia{
+    margin-right: 0px;
+  }
+
+  .copyRightSection{
+    margin-top: 40px;
+    width: 100%;
+  }
 }
