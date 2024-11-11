@@ -14,42 +14,42 @@ import Link from 'next/link';
 
 function Projects() {
   return (
-    <div className=''>
+    <div className='projectSection'>
 
-        <h2 className=''>Our Projects</h2> <br />
+        <h2 className='projecHeading'>Our Projects</h2> <br />
 
-        <div className=''>
+        <div className='projectMainContainer'>
 
-            <div className=''>
+            <div className='projectContainer'>
 
 
                 <Link href={'/sample-project'}>
-                <div className=''>
-                  <Image src={Img03} alt='bgImg' height={1000} width={1000} className=''/>
-                  <Image src={Img02} alt='bgImg' height={1000} width={1000} className=''/>
-                  <Image src={Img01} alt='bgImg' height={1000} width={1000} className=''/>
+                <div className='projectSubContainer'>
+                  <Image src={Img03} alt='bgImg' height={1000} width={1000} className='projectImg1'/>
+                  <Image src={Img02} alt='bgImg' height={1000} width={1000} className='projectImg2'/>
+                  <Image src={Img01} alt='bgImg' height={1000} width={1000} className='projectImg3'/>
                 </div>
                 </Link>
 
                 <div>
 
-                  <Image src={Img04} alt='bgImg' height={1000} width={1000} className=''/>
+                  <Image src={Img04} alt='bgImg' height={1000} width={1000} className='projectImg4'/>
                   
                 </div>
 
             </div>
 
-            <div className=''>
+            <div className='projectContainer'>
 
-              <Image src={Img05} alt='bgImg' height={1000} width={1000} className=''/>
-              <Image src={Img06} alt='bgImg' height={1000} width={1000} className=''/>
-              <Image src={Img07} alt='bgImg' height={1000} width={1000} className=''/>
+              <Image src={Img05} alt='bgImg' height={1000} width={1000} className='projectImg5'/>
+              <Image src={Img06} alt='bgImg' height={1000} width={1000} className='projectImg6'/>
+              <Image src={Img07} alt='bgImg' height={1000} width={1000} className='projectImg7'/>
 
 
             </div>
 
             <div className=''>
-              <Image src={Img08} alt='bgImg' height={1000} width={1000} className=''/>
+              <Image src={Img08} alt='bgImg' height={1000} width={1000} className='projectImg8'/>
             </div>
         </div>
 

@@ -6,23 +6,23 @@ import Img02 from '@/public/2.png';
 
 function Focuses() {
   return (
-    <div className=''>
+    <div className='focusesSection'>
 
-        <h2 className=''>Main Focus <br className='' />/Mission Statement</h2>
+        <h2 className='focusSecHeading'>Main Focus <br className='breakdownForSmall' />/Mission Statement</h2>
 
-        <div className=''>
+        <div className='focusesContentWrapper'>
 
-            <div className=''>
+            <div className='contentBox'>
 
-                <Image src={Img01} alt='01' height={1000} width={1000} className=''/>
-                <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
+                <Image src={Img01} alt='01' height={1000} width={1000} className='focusesImg'/>
+                <p className='focusesPara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
 
             </div>
 
-            <div className=''>
+            <div className='contentBox'>
 
-                <Image src={Img02} alt='02' height={1000} width={1000} className=''/>
-                <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat, 
+                <Image src={Img02} alt='02' height={1000} width={1000} className='focusesImg'/>
+                <p className='focusesPara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat, 
                     magna mauris porttitor tortor, a auctor est felis ut nisl.</p>
             </div>
 

@@ -231,6 +231,10 @@
     width: 100%;
   }
 }
+
+
+
+
 /* About Section */
 
 
@@ -338,7 +342,159 @@
     width: 100%;
   }
 
+}
+
+
+
+
+/* Focuses Section */
+
+.focusesSection{
+  width: 1170px;
+  height: 268px;
+  margin-left: 10%;
+}
+
+
+.focusSecHeading{
+  font-size: 64px;
+  color: #9ca3af;
+  font-weight: 300;
+}
+
+.breakdownForSmall{
+  display: none;
+}
+
+
+.focusesContentWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.contentBox{
+  width: 570px;
+  height: 144px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+
+.focusesImg{
+  width: 70px;
+  height: auto;
+}
+
+
+.focusesPara{
+  text-align: justify;
+  font-size: 22px;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+  .focusesSection{
+    width: auto;
+    height: auto;
+    padding: 12px;
+  }
+
+  .focusSecHeading{
+    font-size: 30px;
+  }
+
+  .breakdownForSmall{
+    display: block;
+  }
+  
+
+  .focusesContentWrapper{
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding-left: 40px;
+  }
+
+
+  .contentBox{
+    width: auto;
+    height: auto;
+    gap: 20px;
+  }
+
+
+  .focusesImg{
+    width: 104px;
+    height: 140px;
+  }
+  
+
+  .focusesPara{
+    font-size: 18px;
+  } 
   
 }
 
 
+
+
+/* Projects Section */
+
+.projectSection{
+  height: 765px;
+  width: 1170px;
+  margin-left: 10%;
+}
+
+
+.projectSection{
+  margin-left: 0%;
+  height: auto;
+  width: auto;
+  padding: 12px;
+}
+
+
+.projecHeading{
+  font-size: 64px;
+  color: #9ca3af;
+  font-family: 300;
+}
+
+
+.projecHeading{
+  font-size: 40px;
+}
+
+
+.projectMainContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.projectContainer{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projectContainer{
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+
+.projectSubContainer{
+  display: flex;
+  position: relative;
+  
+}
