@@ -8,7 +8,7 @@ function Focuses() {
   return (
     <div className='focusesSection'>
 
-        <h2 className='focusSecHeading'>Main Focus <br className='breakdownForSmall' />/Mission Statement</h2>
+        <h2 className='focusSecHeading'>Main Focus/Mission Statement</h2>
 
         <div className='focusesContentWrapper'>
 
