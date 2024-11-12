@@ -16,7 +16,7 @@ function page() {
       <div className='headingWrapper'>
 
         <h2 className='routProjectHeading1'>Our</h2>
-        <h2 className='routProjectHeading1'>Projects</h2>
+        <h2 className='routProjectHeading2'>Projects</h2>
 
       </div>
 
@@ -61,12 +61,12 @@ function page() {
       </div>
 
 
-      <div className='flex gap-9'>
+      <div className='routProjectExtraImgs'>
 
-        <Image src={Img05} alt='number-slider' height={1000} width={1000} className='h-[52px] w-[140px]'/>
+        <Image src={Img05} alt='number-slider' height={1000} width={1000} className='routProjectImg3'/>
         
-        <Image src={Img06} alt='arrow' height={1000} width={1000} className='h-[53px] w-[53px]'/>
-        <Image src={Img07} alt='arrow' height={1000} width={1000} className='h-[53px] w-[53px]'/>
+        <Image src={Img06} alt='arrow' height={1000} width={1000} className='routProjectImg4'/>
+        <Image src={Img07} alt='arrow' height={1000} width={1000} className='routProjectImg5'/>
 
 
       </div>

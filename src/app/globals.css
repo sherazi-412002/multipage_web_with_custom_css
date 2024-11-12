@@ -919,11 +919,6 @@
   margin-left: 10%;
 }
 
-.gallerySection{
-  width: auto;
-  padding: 20px;
-}
-
 .galleryHeadingWrapper{
   line-height: 1;
 }
@@ -948,25 +943,16 @@
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
-.galleryHeadingWrapper{
-  width: auto;
-  gap: 12px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 
 .galleryImges{
   height: 260px;
   width: 210px;
 }
 
-.galleryImges{
-  width: auto;
-}
-
 .galleryExtraImgs{
   display: flex;
   gap: 36px;
+  margin-top: 60px;
 }
 
 .galleryImg1{
@@ -982,4 +968,138 @@
 .galleryImg3{
   height: 53px;
   width: 53px;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+  .gallerySection{
+    width: auto;
+    padding: 20px;
+    margin-left: 0%;
+  }
+
+  .galleryImges{
+    width: auto;
+  }
+
+  .galleryImgsWrapper{
+    width: auto;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+}
+
+
+
+
+/*Rout Projects Section */
+
+.routProjectSection{
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 40px;
+}
+
+
+.headingWrapper{
+  line-height: 1;
+}
+
+.routProjectHeading1{
+  font-size: 64px;
+  color: #9ca3af;
+  font-weight: 300;
+}
+
+.routProjectHeading2{
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.routProjectWraper{
+  height: 435px;
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+.routProjectImg1{
+  height: 435px;
+  width: 670px;
+  width: auto;
+}
+
+
+.routProjectContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 435px;
+  width: 440px;
+}
+
+
+.routProjectHeading{
+  font-size: 40px;
+  color: #9ca3af;
+  font-weight: 300;
+}
+
+.routProjectText{
+  text-align: justify;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.routProjectImg2{
+  height: 71px;
+  width: 222px;
+}
+
+.routProjectExtraImgs{
+  display: flex;
+  gap: 36px;
+}
+
+.routProjectImg3{
+  height: 52px;
+  width: 140px;
+}
+
+.routProjectImg4{
+  height: 53px;
+  width: 53px;
+}
+
+.routProjectImg5{
+  height: 53px;
+  width: 53px;
+}
+
+
+@media screen and (max-width:768px) {
+  
+  .routProjectSection{
+    gap: 56px;
+    margin-left: 0%;
+  }
+
+  .routProjectWraper{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .routProjectContent{
+    height: auto;
+    width: auto;
+  }
+   
 }
